@@ -1,3 +1,54 @@
+# Exploratory Data Analysis course project 1
+
+This work has been carried out as part of the week 1 course project for the Exploratory Data Analysis course 
+by Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD of Johns Hopkins Bloomberg school of public health.
+
+## Files
+
+### R Scripts
+
+* <b>loadDataset.R</b> Loads the dataset used by this assignment. 
+The dataset is loaded from the expected file 'household_power_consumption.txt'. 
+If the file does not exist then it is downloaded and extracted from <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">'exdata data household_power_consumption.zip'</a> [20Mb]
+* <b>plot1.R</b> Creates 'Plot1.png' plot of this assignment. This is a histogram of the global active power (kilowatts).
+* <b>plot2.R</b> Creates 'Plot2.png' plot of this assignment. This is a line chart of the global active power (kilowatts).
+* <b>plot3.R</b> Creates 'Plot3.png' plot of this assignment. This is a combined line chart plot of the three sub metering (Sub_metering_1, Sub_metering_2, Sub_metering_3) data series.
+* <b>plot4.R</b> Creates 'Plot4.png' plot of this assignment. This combines four different charts in a 2x2 grid. Top-left is a line chart of the global active power (kilowatts), similar to Plot2.png.
+To-right is a line chart of the minute-averaged voltage (in volt). Bottom-left is the sub metering line chart similar to Plot3.png. Bottom-right is the household global minute-averaged reactive power (in kilowatt).
+
+### Output files
+
+<em>Plot1.png</em>, <em>Plot2.png</em>, <em>Plot3.png</em>, <em>Plot4.png</em> are the output files of R scripts <em>plot1.R</em>, <em>plot2.R</em>, <em>plot3.R</em>, <em>plot4.R</em> respectively.
+
+#### Plot1.png
+
+![Output of plot1.R](Plot1.png) 
+
+
+#### Plot2.png
+
+![Output of plot2.R](Plot2.png) 
+
+
+#### Plot3.png
+
+![Output of plot3.R](Plot3.png) 
+
+
+#### Plot4.png
+
+![Output of plot4.R](Plot4.png) 
+
+## Usage
+
+* Working directory must contain files <em>plot1.R</em>, <em>plot2.R</em>, <em>plot3.R</em>, <em>plot4.R</em>.
+
+Run the following:
+* `source("plot1.R")` to generate <em>Plot1.png</em>
+* `source("plot2.R")` to generate <em>Plot2.png</em>
+* `source("plot3.R")` to generate <em>Plot3.png</em>
+* `source("plot4.R")` to generate <em>Plot4.png</em>
+
 ## Introduction
 
 This assignment uses data from
